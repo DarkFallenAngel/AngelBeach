@@ -16,3 +16,5 @@ purple='\033[1;35m'
 reset='\033[0m'
 RB='\e[0;1;4;41m'
 GB=
+
+clear
