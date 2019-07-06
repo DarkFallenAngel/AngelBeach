@@ -1,7 +1,7 @@
-
 #!/bin/bash
+#Author:DarkFallenAngel
 #version 1.0
-#variables
+#All in one
 w='\e[97m'
 g='\033[1;92m'
 r='\033[1;91m'
@@ -14,3 +14,5 @@ yellow='\033[1;33m'
 blue='\033[1;34m'
 purple='\033[1;35m'
 reset='\033[0m'
+RB='\e[0;1;4;41m'
+GB=
