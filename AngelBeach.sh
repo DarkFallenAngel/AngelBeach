@@ -18,3 +18,6 @@ RB='\e[0;1;4;41m'
 GB=
 
 clear
+pkg install python2
+pkg install nodejs
+npm install figlet
