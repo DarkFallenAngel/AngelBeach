@@ -5,8 +5,9 @@
 w='\e[97m'
 g='\033[1;92m'
 r='\033[1;91m'
-a='\033[1;94m'
+a='\e[0;1;94m'
 b='\e[1;4m'
+A='\e[1;94m'
 cyan='\033[1;36m'
 green='\033[1;32m'
 red='\033[1;31m'
@@ -15,9 +16,49 @@ blue='\033[1;34m'
 purple='\033[1;35m'
 reset='\033[0m'
 RB='\e[0;1;4;41m'
-GB=
+GB='\e[0;1;4;42m'
+YB='\e[1;4;7;33m'
 
 clear
 pkg install python2
 pkg install nodejs
 npm install figlet
+npm install -g figlet-cli
+
+
+
+
+printf '$YB RUNNING THE SCRIPT'
+sleep 0.5                                         
+bar="#########################################"
+barlength=${#bar}                                 
+i=0
+while ((i < 100)); do
+  # Number of bar segments to draw.
+  n=$((i*barlength / 100))
+  printf "\r[%-${barlength}s]" "${bar:0:n}"         
+  ((i += RANDOM%3+1))
+  # Dont Forget To Subscribe
+  sleep 0.10
+done
+echo -e '$a Completed!?'
+sleep 0.5
+clear
+
+echo -e "$A ============================'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
