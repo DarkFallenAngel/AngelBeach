@@ -20,8 +20,8 @@ GB='\e[0;1;4;42m'
 YB='\e[1;4;7;33m'
 
 clear
-pkg install python2
-pkg install nodejs
+pkg install python2 -y
+pkg install nodejs -y
 npm install figlet
 npm install -g figlet-cli
 
@@ -30,7 +30,7 @@ npm install -g figlet-cli
 
 printf '$YB RUNNING THE SCRIPT'
 sleep 0.5                                         
-bar="#########################################"
+bar="###################################"
 barlength=${#bar}                                 
 i=0
 while ((i < 100)); do
@@ -45,7 +45,8 @@ echo -e '$a Completed!?'
 sleep 0.5
 clear
 
-echo -e "$A ============================'
+figlet -f 'ANSI Shadow' AngelBeach
+echo -e "$A =============================================='
 
 
 
