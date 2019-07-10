@@ -47,12 +47,12 @@ clear
 
 echo -e '$green'
 figlet -f 'ANSI Shadow' AngelBeach
-echo -e "$A =============================================='
+echo -e "$A =============================================="
 echo -e "$yellow Author    :DarkFallenAngel"
 echo -e "$yellow Version   :1.0"
 echo -e "$yellow Facebook  :https://facebook.com/otaku.triggered"
 echo -e "$yellow Github.   :https://github.com/DarkFallenAngel"
-
+echo -e "$A =============================================="
 
 
 
