@@ -45,9 +45,12 @@ echo -e '$a Completed!?'
 sleep 0.5
 clear
 
+echo -e '$green'
 figlet -f 'ANSI Shadow' AngelBeach
 echo -e "$A =============================================='
-
+echo -e "$yellow Author  :DarkFallenAngel
+echo -e "$yellow Version :1.0
+echo -e "
 
 
 
