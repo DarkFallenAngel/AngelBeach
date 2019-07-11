@@ -58,7 +58,7 @@ echo -e "$yellow Github.   :https://github.com/DarkFallenAngel"
 echo -e "$A ============================================================="
 sleep 1
 echo -e "$BB Dipilih Gan!(Mumpung Anget)"
-echo ''
+echo -e '$reset'
 echo -e "$nyan < 1 > A-Rat"
 echo -e "$nyan < 2 > Multi Brute Force"
 echo -e "$nyan < 3 > Spam KFC"
@@ -84,7 +84,19 @@ echo -e "$nyan <22*> ASCII ART MAPS"
 echo -e "$nyan <23*> Puter musik YouTube Via Termux"
 echo -e "$nyan <24*> Script Deface Creator"
 echo -e "$nyan <25*> AVisit"
+echo -e '$reset'
 
-echo
+read -p "$purple #AngelBeach♪ ×>" boy
+if [ $boy = 1 ] || [ $boy = 1 ]
+then
+clear
+figlet -f 'ANSI Shadow' AngelBeach
+echo -e '$A ========================================================'
+sp='/-\|'
+printf 'Loading.'
+while true; do
+    printf '\b%.50s' "$sp"
+    sp=${sp#?}${sp%???}
+done
 
 
