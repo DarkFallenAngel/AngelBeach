@@ -19,6 +19,7 @@ RB='\e[0;1;4;41m'
 GB='\e[0;1;4;42m'
 YB='\e[1;4;7;33m'
 BB='\e[0;1;45m'
+nyan='\e[1;4;36m'
 
 clear
 pkg install python2 -y
@@ -42,7 +43,7 @@ while ((i < 100)); do
   # Dont Forget To Subscribe
   sleep 0.10
 done
-echo -e '$a Completed!?'
+echo -e '$a Starting!?'
 sleep 0.5
 clear
 
@@ -58,16 +59,16 @@ echo -e "$A ============================================================="
 sleep 1
 echo -e "$BB Dipilih Gan!(Mumpung Anget)"
 echo ''
-echo -e "
-
-
-
-
-
-
-
-
-
-
-
+echo -e "$nyan <1> A-Rat
+echo -e "$nyan <2>
+echo -e "$nyan <3> Spam KFC
+echo -e "$nyan <4>
+echo -e "$nyan 
+echo -e "$nyan
+echo -e "$nyan
+echo -e "$nyan
+echo -e "$nyan
+echo -e "$nyan
+echo -e "$nyan
+echo -e "$nyan
 
