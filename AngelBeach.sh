@@ -26,7 +26,7 @@ pkg install python2 -y
 pkg install nodejs -y
 npm install figlet
 npm install -g figlet-cli
-
+pkg install php
 
 
 
@@ -59,18 +59,19 @@ echo -e "$A ============================================================="
 sleep 1
 echo -e "$BB Dipilih Gan!(Mumpung Anget)"
 echo ''
-echo -e "$nyan < 1 > A-Rat
-echo -e "$nyan < 2 >
-echo -e "$nyan < 3 > Spam KFC
-echo -e "$nyan < 4 >
-echo -e "$nyan < 5 >
-echo -e "$nyan < 6 >
-echo -e "$nyan < 7 >
-echo -e "$nyan < 8 >
-echo -e "$nyan < 9 >
-echo -e "$nyan <10°>
-echo -e "$nyan <11°>
-echo -e "$nyan <12°>
-echo -e "$nyan <13°>
-echo -e "$nyan <14°>
-echo -e "$nyan <15°>
+echo -e "$nyan < 1 > A-Rat"
+echo -e "$nyan < 2 > Multi Brute Force"
+echo -e "$nyan < 3 > Spam KFC"
+echo -e "$nyan < 4 > Spam Whiskas"
+echo -e "$nyan < 5 > Spam Tokopedia"
+echo -e "$nyan < 6 > Spam Tsel"
+echo -e "$nyan < 7 > Cracking Hash"
+echo -e "$nyan < 8 > wifi-hacker [Root]"
+echo -e "$nyan < 9 > Spam GRAB"
+echo -e "$nyan <10°> LITESPAM"
+echo -e "$nyan <11°> Weeman"
+echo -e "$nyan <12°> OSIF"
+echo -e "$nyan <13°> Metasploit-Framework"
+echo -e "$nyan <14°> IPGeoLocation"
+echo -e "$nyan <15°> HAMMER"
+
