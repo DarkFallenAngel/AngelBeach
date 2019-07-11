@@ -74,4 +74,17 @@ echo -e "$nyan <12°> OSIF"
 echo -e "$nyan <13°> Metasploit-Framework"
 echo -e "$nyan <14°> IPGeoLocation"
 echo -e "$nyan <15°> HAMMER"
+echo -e "$nyan <16°> Xerxes"
+echo -e "$nyan <17°> RED_HAWK"
+echo -e "$nyan <18°> liteDDOS"
+echo -e "$nyan <19°> Tembak Xl"
+echo -e "$nyan <20°> Ngrok"
+echo -e "$nyan <21*> Ubuntu"
+echo -e "$nyan <22*> ASCII ART MAPS"
+echo -e "$nyan <23*> Puter musik YouTube Via Termux"
+echo -e "$nyan <24*> Script Deface Creator"
+echo -e "$nyan <25*> AVisit"
+
+echo
+
 
