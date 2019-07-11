@@ -59,16 +59,18 @@ echo -e "$A ============================================================="
 sleep 1
 echo -e "$BB Dipilih Gan!(Mumpung Anget)"
 echo ''
-echo -e "$nyan <1> A-Rat
-echo -e "$nyan <2>
-echo -e "$nyan <3> Spam KFC
-echo -e "$nyan <4>
-echo -e "$nyan 
-echo -e "$nyan
-echo -e "$nyan
-echo -e "$nyan
-echo -e "$nyan
-echo -e "$nyan
-echo -e "$nyan
-echo -e "$nyan
-
+echo -e "$nyan < 1 > A-Rat
+echo -e "$nyan < 2 >
+echo -e "$nyan < 3 > Spam KFC
+echo -e "$nyan < 4 >
+echo -e "$nyan < 5 >
+echo -e "$nyan < 6 >
+echo -e "$nyan < 7 >
+echo -e "$nyan < 8 >
+echo -e "$nyan < 9 >
+echo -e "$nyan <10°>
+echo -e "$nyan <11°>
+echo -e "$nyan <12°>
+echo -e "$nyan <13°>
+echo -e "$nyan <14°>
+echo -e "$nyan <15°>
