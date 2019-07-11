@@ -18,6 +18,7 @@ reset='\033[0m'
 RB='\e[0;1;4;41m'
 GB='\e[0;1;4;42m'
 YB='\e[1;4;7;33m'
+BB='\e[0;1;45m'
 
 clear
 pkg install python2 -y
@@ -47,13 +48,17 @@ clear
 
 echo -e '$green'
 figlet -f 'ANSI Shadow' AngelBeach
+echo ''
 echo -e "$A ============================================================="
 echo -e "$yellow Author    :DarkFallenAngel"
 echo -e "$yellow Version   :1.0"
 echo -e "$yellow Facebook  :https://facebook.com/otaku.triggered"
 echo -e "$yellow Github.   :https://github.com/DarkFallenAngel"
 echo -e "$A ============================================================="
-
+sleep 1
+echo -e "$BB Dipilih Gan!(Mumpung Anget)"
+echo ''
+echo -e "
 
 
 
