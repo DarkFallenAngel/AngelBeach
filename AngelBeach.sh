@@ -26,7 +26,7 @@ pkg install python2 -y
 pkg install nodejs -y
 npm install figlet
 npm install -g figlet-cli
-pkg install php
+pkg install php -y
 
 
 
@@ -93,10 +93,34 @@ clear
 figlet -f 'ANSI Shadow' AngelBeach
 echo -e '$A ========================================================'
 sp='/-\|'
-printf 'Loading.'
+printf 'Loading...'
 while true; do
     printf '\b%.50s' "$sp"
     sp=${sp#?}${sp%???}
 done
 
+pkg install git -y
+git clone https://github.com/Xi4u7/A-Rat.git
+chmod +x A-Rat.py
+clear
 
+figlet -f 'ANSI Shadow' AngelBeach
+echo -e '$A ========================================================'
+echo -e '•$green Now A-Rat Avaible in your terminal!'
+echo -e ' -$green Execute With |$yellow python2 A-Rat.py $reset|
+
+
+if [ $boy = 2 ] || [ $boy = 2 ]
+then
+clear
+figlet -f 'ANSI Shadow' AngelBeach
+echo -e '$A ========================================================'
+sp='/-\|'
+printf 'Loading...'
+while true; do
+    printf '\b%.50s' "$sp"
+    sp=${sp#?}${sp%???}
+done
+
+pip2 install mechanize
+git clone http://github.com/pirmansx/mbf
