@@ -107,7 +107,7 @@ clear
 figlet -f 'ANSI Shadow' AngelBeach
 echo -e '$A ========================================================'
 echo -e '•$green Now A-Rat Avaible in your terminal!'
-echo -e ' -$green Execute With |$yellow python2 A-Rat.py $reset|
+echo -e ' -$green Execute With $reset|$yellow python2 A-Rat.py $reset|
 
 
 if [ $boy = 2 ] || [ $boy = 2 ]
@@ -129,4 +129,30 @@ clear
 figlet -f 'ANSI Shadow' AngelBeach
 echo -e '$A ========================================================'
 echo -e '•$green Now MBF Avaible in your terminal!'
-echo -e ' -$green Execute With |$yellow python2 mbf.py $reset|
+echo -e ' -$green Execute With $reset|$yellow python2 mbf.py $reset|
+
+
+if [ $boy = 3 ] || [ $boy = 3 ]
+then
+clear
+figlet -f 'ANSI Shadow' AngelBeach
+echo -e '$A ========================================================'
+sp='/-\|'
+printf 'Loading...'
+while true; do
+    printf '\b%.50s' "$sp"
+    sp=${sp#?}${sp%???}
+done
+
+cd module
+cp KFC $HOME
+clear
+
+figlet -f 'ANSI Shadow' AngelBeach
+echo -e '$A ========================================================'
+echo -e '•$green Now KFCspam Avaible in your terminal!'
+echo -e ' -$green Execute With $reset|$yellow php KFC.php $reset|
+
+
+
+
