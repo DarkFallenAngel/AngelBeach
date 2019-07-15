@@ -124,3 +124,9 @@ done
 
 pip2 install mechanize
 git clone http://github.com/pirmansx/mbf
+clear
+
+figlet -f 'ANSI Shadow' AngelBeach
+echo -e '$A ========================================================'
+echo -e '•$green Now MBF Avaible in your terminal!'
+echo -e ' -$green Execute With |$yellow python2 mbf.py $reset|
