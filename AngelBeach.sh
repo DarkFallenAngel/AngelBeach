@@ -5,7 +5,7 @@
 w='\e[97m'
 g='\033[1;92m'
 r='\033[1;91m'
-a='\e[0;1;94m'
+iyus='\e[0;1;94m'
 b='\e[1;4m'
 A='\e[1;94m'
 cyan='\033[1;36m'
@@ -22,13 +22,6 @@ BB='\e[0;1;45m'
 nyan='\e[1;4;36m'
 
 clear
-pkg install python2 -y
-pkg install nodejs -y
-npm install figlet
-npm install -g figlet-cli
-pkg install php -y
-
-
 
 printf '$YB RUNNING THE SCRIPT'
 sleep 0.5                                         
@@ -43,7 +36,7 @@ while ((i < 100)); do
   # Dont Forget To Subscribe
   sleep 0.10
 done
-echo -e '$a Starting!?'
+echo -e '$iyus Starting!?'
 sleep 0.5
 clear
 
