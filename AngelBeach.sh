@@ -51,7 +51,7 @@ echo -e "$yellow Github.   :https://github.com/DarkFallenAngel"
 echo -e "$A ============================================================="
 sleep 1
 echo -e "$BB Dipilih Gan!(Mumpung Anget)"
-echo -e '$reset'
+echo -e '$reset '
 echo -e "$nyan < 1 > A-Rat"
 echo -e "$nyan < 2 > Multi Brute Force"
 echo -e "$nyan < 3 > Spam KFC"
