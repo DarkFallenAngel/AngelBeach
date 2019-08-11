@@ -23,7 +23,7 @@ nyan='\e[1;4;36m'
 
 clear
 
-printf '$YB RUNNING THE SCRIPT'
+echo -e '$YB RUNNING THE SCRIPT'
 sleep 0.5                                         
 bar="###################################"
 barlength=${#bar}                                 
@@ -93,6 +93,7 @@ while true; do
     sp=${sp#?}${sp%???}
 done
 
+cd $HOME
 pkg install git -y
 git clone https://github.com/Xi4u7/A-Rat.git
 chmod +x A-Rat.py
@@ -116,6 +117,7 @@ while true; do
     sp=${sp#?}${sp%???}
 done
 
+cd $HOME
 pip2 install mechanize
 git clone http://github.com/pirmansx/mbf
 clear
