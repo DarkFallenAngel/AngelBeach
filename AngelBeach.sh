@@ -50,7 +50,7 @@ echo -e "$yellow Facebook  :https://facebook.com/otaku.triggered"
 echo -e "$yellow Github.   :https://github.com/DarkFallenAngel"
 echo -e "$A ============================================================="
 sleep 1
-echo -e "$BB Dipilih Gan!(Mumpung Anget)"
+echo -e "$yellow Dipilih Gan!(Mumpung Anget)"
 echo -e '$reset '
 echo -e "$nyan < 1 > A-Rat"
 echo -e "$nyan < 2 > Multi Brute Force"
@@ -79,7 +79,8 @@ echo -e "$nyan <24*> Script Deface Creator"
 echo -e "$nyan <25*> AVisit"
 echo -e '$reset'
 
-read -p "$purple #AngelBeach♪ ×>" boy
+read -p "#AngelBeach♪ ×>" boy
+
 if [ $boy = 1 ] || [ $boy = 1 ]
 then
 clear
