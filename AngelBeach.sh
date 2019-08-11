@@ -89,7 +89,7 @@ echo -e '$A ========================================================'
 sp='/-\|'
 printf 'Loading...'
 while true; do
-    printf '\b%.50s' "$sp"
+    printf '\b%.5s' "$sp"
     sp=${sp#?}${sp%???}
 done
 
@@ -113,7 +113,7 @@ echo -e '$A ========================================================'
 sp='/-\|'
 printf 'Loading...'
 while true; do
-    printf '\b%.50s' "$sp"
+    printf '\b%.5s' "$sp"
     sp=${sp#?}${sp%???}
 done
 
@@ -136,7 +136,7 @@ echo -e '$A ========================================================'
 sp='/-\|'
 printf 'Loading...'
 while true; do
-    printf '\b%.50s' "$sp"
+    printf '\b%.5s' "$sp"
     sp=${sp#?}${sp%???}
 done
 
