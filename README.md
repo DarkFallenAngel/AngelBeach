@@ -1,8 +1,9 @@
 # AngelBeach
-This tool can installing many tools like a paradise
-[For Termux]
+• Kumpulan Tools Termux
+# How to use
+• - chmod 777 install
+  - ./install
+  - chmod 777 AngelBeach.sh
+  - ./AngelBeach.sh
 
-[√] https://facebook.com/otaku.TRIGGERED
-[√] 
-
-《!▪!》Dont Forget To Subscribe Ok !!
+# Enjoy
