@@ -1,15 +1,10 @@
 pkg update -y && pkg upgrade -y
 pkg install python python2 ncurses-utils cowsay -y
 pkg install php curl -y
-pip install mps_youtube
-pip install youtube_dl
 pkg install ruby mpv wget figlet toilet nodejs -y
 npm install figlet
 npm install figlet-cli
-pkg install x11-repo root-repo unstable-repo -y
-cowsay "Ditunggu Sebentar Lagi..."
-sleep 0.10
-pkg install metasploit -y
+cowsay "Mohon Bersabar..."
 sleep 0.10
 cowsay "Berhasil..."
 
